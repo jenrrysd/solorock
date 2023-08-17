@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility
+Name=Solo Rock
+Comment=Solo Rock
+Icon=/home/jssd/Documentos/proyectos/proyectos-con-bash/solorock.png
+Exec=/home/jssd/Documentos/proyectos/proyectos-con-bash/solo-rock.sh
+MimeType=image/jpeg;image/png;
+Terminal=true
+
