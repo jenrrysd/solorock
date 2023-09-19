@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Comandos para ejecutar pruebas
-                sh 'java -version'
+                sh 'java -version && chmod +x solo-rock.sh && bash solo-rock.sh'
             }
         }
     }
