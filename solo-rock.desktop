@@ -3,8 +3,8 @@ Type=Application
 Categories=Utility
 Name=Solo Rock
 Comment=Solo Rock
-Icon=./solo-rock/solorock.png
-Exec=./solo-rock/solo-rock.sh
+Icon=/home/jssd/Documentos/proyectos/proyectos-con-bash/solorock.png
+Exec=/home/jssd/Documentos/proyectos/proyectos-con-bash/solo-rock.sh
 MimeType=image/jpeg;image/png;
 Terminal=true
 
