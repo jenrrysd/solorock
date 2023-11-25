@@ -8,10 +8,10 @@ if [ "$(which mpv)" = "/usr/bin/mpv" ]; then
 
 while :
 do
-echo "-------------------------------"
-echo "SOLO ROCK - ESCOGA UNA OPCIÓN "
+echo "--------------------------------------------"
+echo "-- SOLO ROCK - ESCOGA UNA OPCIÓN -----------"
 echo "-- Letra 'q' para detener la reproducción --"
-echo "-- Cero 0 Para salir del Script --"
+echo "-- Cero 0 Para salir del Script ------------"
 echo ""
 echo "1.- Classic Rock Florida "
 echo "2.- Radio Zlote Przeboje  "
