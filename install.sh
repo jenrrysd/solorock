@@ -4,8 +4,8 @@
 
 
 if [ "$(which mpv )" = "/usr/bin/mpv"   ]; then
-	echo -e "SE COMPRUEBA QUE EL COMANDO MPV SÍ ESTÁ INSTALDO, 
-	         SE PROCEDE CON LA INSTALCIÓN "
+echo -e "SE COMPRUEBA QUE EL COMANDO MPV SÍ ESTÁ INSTALDO, 
+         SE PROCEDE CON LA INSTALCIÓN "
 
 icono=$PWD/solorock.png
 sudo bash -c  'cat > /usr/share/applications/solo-rock.desktop << EOF
@@ -15,7 +15,7 @@ Categories=Utilitario
 Name=Solo Rock
 Comment=Solo Rock
 Icon='$icono'
-Exec=gnome-terminal --geometry=80x32 -- "./solo-rock/solo-rock.sh"
+Exec=./solo-rock/solo-rock.sh
 MimeType=image/jpeg;image/png;image/svg;
 Terminal=true
 EOF'

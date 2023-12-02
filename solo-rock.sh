@@ -3,7 +3,7 @@
 ##Este script es una recopilación de radios rock online
 echo -e "   Para que funcione este script te comento que\n   el comando mpv debe estar instalado."
 if [ "$(which mpv)" = "/usr/bin/mpv" ]; then
-	echo -e "\e[1m   Pero NO TE PREOCUPES mpv ESTÁ INSTALDO EN TU DISTRO \e[0m"
+echo -e "\e[1m   Pero NO TE PREOCUPES mpv ESTÁ INSTALDO EN TU DISTRO \e[0m"
 ##lineas abajo va el while
 
 while :
@@ -40,7 +40,7 @@ echo -n "SU OPCION ELEGIDA ES EL NÚMERO => "
 
 read opcion
 case $opcion in
-#
+
 1) echo "Classic Rock Florida "
 mpv https://streaming.live365.com/a06375
 
