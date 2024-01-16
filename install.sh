@@ -8,6 +8,7 @@ echo -e "SE COMPRUEBA QUE EL COMANDO MPV SÍ ESTÁ INSTALDO,
          SE PROCEDE CON LA INSTALCIÓN "
 
 icono=$PWD/solorock.png
+ejecutable=$PWD/solo-rock.sh
 sudo bash -c  'cat > /usr/share/applications/solo-rock.desktop << EOF
 [Desktop Entry]
 Type=Application
@@ -15,7 +16,7 @@ Categories=Utilitario
 Name=Solo Rock
 Comment=Solo Rock
 Icon='$icono'
-Exec=./solo-rock/solo-rock.sh
+Exec='$ejecutable'
 MimeType=image/jpeg;image/png;image/svg;
 Terminal=true
 EOF'
