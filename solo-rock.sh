@@ -97,7 +97,7 @@ mpv https:\/\/scdn.nrjaudio.fm\/audio1\/fr\/30601\/aac_64.mp3
 ;;
 
 12) echo "BeatlesRadio "
-mpv http://streaming.shoutcast.com/beatles-radio
+mpv https://strw3.openstream.co/981?aw_0_1st.collectionid%3D6906%26stationId%3D6906
 
 ;;
 
