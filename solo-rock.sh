@@ -8,14 +8,9 @@ echo -e "\e[1m   Pero NO TE PREOCUPES mpv ESTÁ INSTALDO EN TU DISTRO \e[0m"
 
 while :
 do
-<<<<<<< HEAD
 
 # Cambia el título de la terminal a "Solo-Rock"
 echo -ne "\033]0;SOLO-ROCK\007"
-=======
-# Cambia el titulo de la terminal a Solo-Rock
-echo -ne "\033]0;Solo-Rock\007"
->>>>>>> 956a129 (actualización de todo)
 
 echo "--------------------------------------------"
 echo "-- SOLO ROCK - ESCOGA UNA OPCIÓN -----------"
