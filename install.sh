@@ -9,17 +9,17 @@ echo -e "SE COMPRUEBA QUE EL COMANDO MPV SÍ ESTÁ INSTALDO,
 
 icono=$PWD/solorock.svg
 ejecutable=$PWD/solo-rock.sh
-sudo bash -c  'cat > /usr/share/applications/solo-rock.desktop << EOF
+cat > ~/.local/share/applications/solo-rock.desktop << EOF
 [Desktop Entry]
 Type=Application
 Categories=Utilitario
 Name=Solo Rock
 Comment=Solo Rock
-Icon='$icono'
-Exec='$ejecutable'
+Icon=$icono
+Exec=$ejecutable
 MimeType=image/jpeg;image/png;image/svg;
 Terminal=true
-EOF'
+EOF
 
 else
 	echo -e "NO TIENES INSTALADO EL COMANDO MPV, PORFAVOR INSTALAR
