@@ -1,6 +1,12 @@
 # solo-rock
-Descargar los archivos y correr el script 
-sudo bash install.sh 
+Descargar los archivos antes de correr cualquier script 
+
+Importante instalar lo mvp con el siguiente comando:
+sudo apt install mpv --no-install-recommends
+
+ahora correr el comando
+bash install.sh
+
 el cual verificará si tienes instalado el comando mpv, el fichero solo-rock.desktop será creado 
 en la ruta /usr/share/applications/
 
