@@ -23,7 +23,7 @@ echo "3.- Curtin Radio "
 echo "4.- Mix 106.5 "
 echo "5.- LM Radio "
 echo "6.- Stereorey "
-echo "7.- Aspen "
+echo "7.- 538.nl classics "
 echo "8.- Easy Hits Florida "
 echo "9.- 181.fm Awesoma 80's "
 echo "10.- 80s80s "
@@ -31,7 +31,7 @@ echo "11.- Nostalgie Fr "
 echo "12.- BeatlesRadio "
 echo "13.- Aardvark "
 echo "14.- Rock Antenne Live "
-echo "15.- Europe2 "
+echo "15.- Nostalgie (Bélgica) "
 echo "16.- Flashback Radio 80's Music "
 echo "17.- Paisa Estereo "
 echo "18.- La Máxima "
@@ -75,8 +75,8 @@ mpv https://playerservices.streamtheworld.com/api/livestream-redirect/XHCAA.mp3?
 
 ;;
 
-7) echo "Aspen "
-mpv https://mdstrm.com/audio/60a2745ff943100826374a70/icecast.audio
+7) echo "538.nl classics "
+mpv https://22723.live.streamtheworld.com/TLPSTR08.mp3
 
 ;;
 
@@ -115,8 +115,8 @@ mpv https://stream.rockantenne.de/rockantenne/stream/mp3
 
 ;;
 
-15) echo "Europe2 "
-mpv https://europe2.lmn.fm/europe2.128.aac/h23gzYklLtm-337091591-4992.aac
+15) echo "Nostalgie (Bélgica) "
+mpv https://n07.rcs.revma.com/5gd04cwptg0uv
 
 ;;
 
