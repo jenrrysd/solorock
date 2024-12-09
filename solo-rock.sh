@@ -33,7 +33,7 @@ echo "13.- Aardvark "
 echo "14.- Rock Antenne Live "
 echo "15.- Nostalgie (Bélgica) "
 echo "16.- Flashback Radio 80's Music "
-echo "17.- Paisa Estereo "
+echo "17.- FM Hits 80s "
 echo "18.- La Máxima "
 echo "19.- Fuego 90 "
 echo "20.- Houston Blues Radio "
@@ -125,8 +125,8 @@ mpv http://ais-edge103-live365-dal02.cdnstream.com/a14920
 
 ;;
 
-17) echo "Paisa Estereo "
-mpv https://radiolatina.info:10902/
+17) echo "FM Hits 80s "
+mpv https://cast.fmhits80s.net.pe/listen/fm_hits_80s/stream128
 
 ;;
 
