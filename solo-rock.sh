@@ -116,7 +116,7 @@ mpv https://stream.rockantenne.de/rockantenne/stream/mp3
 ;;
 
 15) echo "Nostalgie (Bélgica) "
-mpv https://n07.rcs.revma.com/5gd04cwptg0uv
+mpv https://stream.rcs.revma.com/5gd04cwptg0uv
 
 ;;
 
